@@ -9,16 +9,37 @@
 .fuente {
   font-family: "Alex Brush", cursive;
   font-weight: 400;
-  font-style: normal;
   background-color: rgba(207, 4, 48, 0.81);
   text-align: center;
   font-size: 30px;
 }
 
+.reserva-boton{
+  background-color: rgba(207, 4, 48, 0.2);
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 5px 10px;
+  padding: 5px;
+  margin-top: 5px;
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  transition: all 0.7s ease;
+  position: absolute;
+  left: 75%;
+  top:6px;
+  border: solid 2px white;
+  letter-spacing: 2px;
+}
+
+.reserva-boton:hover{
+  transform: scale(1.05);
+  background-color: white;
+}
+
+
 .fuente2 {
  font-family: "Alex Brush", cursive;
   font-weight: 400;
-  font-style: normal;
   font-size: 30px;
 }
 
@@ -33,18 +54,19 @@ h2{
 ul{
     text-align: center;
     padding: 20px 0;
-    margin-bottom: 100px 0;
 }
 
 div {
     background-color: rgba(207, 4, 48, 0.81);
 }
 
-
-img{
-    height: 50vh;
+p{
+     display: inline-block; 
+    vertical-align: top;
 }
 
-.bife {
-  display: inline-block;
+img{
+    height: 80vh;
+    display: inline-block; 
+    vertical-align: top;
 }
