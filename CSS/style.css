@@ -2,8 +2,8 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 } 
 
 .fuente {
@@ -27,8 +27,9 @@
   position: absolute;
   left: 75%;
   top:6px;
-  border: solid 2px white;
+  border: none;
   letter-spacing: 2px;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.459);
 }
 
 .reserva-boton:hover{
@@ -53,20 +54,27 @@ h2{
 
 ul{
     text-align: center;
-    padding: 20px 0;
+    padding-top: 20px ;
 }
 
 div {
     background-color: rgba(207, 4, 48, 0.81);
 }
 
-p{
-     display: inline-block; 
-    vertical-align: top;
+.precio::before {
+  content: "$";
 }
 
 img{
     height: 80vh;
-    display: inline-block; 
-    vertical-align: top;
+    /* display: inline-block; 
+    vertical-align: top; */
+}
+
+.bebidas{
+  height: 100vh;
+  padding: 10px 0;
+  margin: 5px 0;
+  margin-bottom: 5px;
+  line-height: 60px;
 }
